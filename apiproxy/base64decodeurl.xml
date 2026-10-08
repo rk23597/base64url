@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="base64decodeurl">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1791453235799</CreatedAt>
+  <LastModifiedAt>1791453235799</LastModifiedAt>
+  <BasePaths>/base64decodeurl</BasePaths>
+  <Policies>
+    <Policy>AM-base64</Policy>
+    <Policy>JS-decode-jws-payload</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://decodeJwsPayload.js</Resource>
+  </Resources>
+</APIProxy>
